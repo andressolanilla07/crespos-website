@@ -4,7 +4,7 @@
 
 Sitio estático de cinco páginas desarrollado con HTML5, CSS3 y JavaScript. Incluye diseño adaptable, navegación semántica, carrusel con pausa y movimiento reducido, y contactos del salón en cada pie de página.
 
-**Demo prevista:** https://andressolanilla07.github.io/crespos-website/ (pendiente de activar GitHub Pages).
+**Demo:** [Ver Crespos Sala de Belleza](https://andressolanilla07.github.io/crespos-website/). GitHub Pages configurado desde `main` y la raíz del repositorio.
 
 Esta es una demostración técnica para el portafolio del desarrollador, no un lanzamiento oficial del salón. Servicios, precios, fotografías y promociones permanecen pendientes de validación. El aviso de prototipo se conserva visible.
 
@@ -83,4 +83,5 @@ No se incorpora una licencia pública por ahora. La elección de licencia queda 
 ## Fuente y control de información
 
 Decisiones del usuario en la conversación «Plan técnico de arquitectura» y su solicitud de inicialización. Los datos comerciales no confirmados se mantienen como pendientes; no deben publicarse valores o afirmaciones inventados.
+
 
