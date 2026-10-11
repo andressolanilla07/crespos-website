@@ -1,18 +1,18 @@
 # CR-001 — Requisitos
 
 **Fecha:** 2026-10-11  
-**Estado:** decisiones iniciales y pendientes de validación.  
+**Estado:** decisiones iniciales y pendientes de validación. Existe un prototipo local (2026-10-11); no está listo para publicar.  
 **Referencia:** [visión y alcance](CR-000-vision-alcance.md).
 
 ## Requisitos funcionales acordados
 
 | ID | Requisito | Estado |
 | --- | --- | --- |
-| RF-01 | Presentar el salón mediante un portafolio de sus trabajos. | Acordado; textos e imágenes pendientes. |
+| RF-01 | Presentar el salón mediante un portafolio de sus trabajos. | Acordado; galería con archivos locales y enlaces directos a las publicaciones de Instagram; faltan fotografías autorizadas y la dirección de cada publicación. |
 | RF-02 | Mostrar un carrusel principal de promociones y servicios. | Acordado; contenido y condiciones pendientes. |
 | RF-03 | Mostrar seis servicios con precios publicados fijos. | Acordado; catálogo, importes y moneda pendientes de validación. |
-| RF-04 | Presentar cuatro profesionales provisionales. | Composición, nombres, imágenes y especialidades pendientes. |
-| RF-05 | Permitir contacto mediante enlaces oficiales de WhatsApp e Instagram. | Acordado; destinos pendientes. |
+| RF-04 | Presentar cinco profesionales (dueña y especialistas). | Nombres y especialidades del material aportado por el usuario el 2026-10-11; fotografías y confirmación pendientes. |
+| RF-05 | Permitir contacto mediante enlaces oficiales de WhatsApp e Instagram. | Acordado; destinos suministrados por el usuario el 2026-10-11; enlaces pendientes de prueba. |
 | RF-06 | Permitir 2–3 actualizaciones mensuales realizadas por el desarrollador. | Acordado; sin panel de administración. |
 
 ## Catálogo pendiente
@@ -30,16 +30,32 @@ Las siguientes filas son identificadores de levantamiento, no nombres comerciale
 
 No usar importes de ejemplo como precios reales. Confirmar alcance, condiciones y vigencia de cada precio antes de publicar. Los servicios adicionales quedan pendientes.
 
-## Equipo provisional
+## Equipo
 
 | Registro | Información aportada | Validación pendiente |
 | --- | --- | --- |
-| Profesional 01 | Posible manicurista. | Nombre, rol, fotografía y confirmación. |
-| Profesional 02 | Posible manicurista. | Nombre, rol, fotografía y confirmación. |
-| Profesional 03 | Posible estilista de peinados y cortes. | Nombre, especialidades y fotografía. |
-| Profesional 04 | Dueña; posiblemente especializada en cortes y peinados. | Nombre, especialidades y fotografía. |
+| Carolina Chico | Dueña; estilista profesional y colorista; micropigmentadora; peinados y trenzas. | Fotografía y confirmación. |
+| Valentina Sánchez | Manicurista y barbera; acrílicas esculpidas. | Fotografía y confirmación. |
+| Dolly Fernández | Estilista profesional; cepillados y corte para caballeros. | Fotografía y confirmación. |
+| Jacqueline Muñoz | Estilista profesional y colorista; color y cepillados. | Fotografía y confirmación. |
+| Erika Osorio | Estilista profesional, lashista y recepcionista; peinados y planchados. | Fotografía y confirmación. |
 
-El total de cuatro personas, incluida la dueña, es provisional. La conversación menciona «ambas opciones» para presentar el equipo, pero no detalla las opciones en el contexto recuperado; su formato debe aclararse antes de implementar.
+Nombres y especialidades proceden del material aportado por el usuario el 2026-10-11; la dueña, Carolina Chico, se presenta en primer lugar. No se inventan biografías, años de experiencia ni fotografías. Estas especialidades describen al equipo y no equivalen al catálogo definitivo de seis servicios (RF-03); los nombres finales, precios y moneda de servicios siguen pendientes.
+
+## Contactos
+
+Suministrados por el usuario el 2026-10-11:
+
+| Canal | Dato |
+| --- | --- |
+| Teléfono y WhatsApp | +57 304 2382609 |
+| WhatsApp Business | @CresposBelleza |
+| Enlace de WhatsApp | https://wa.me/573042382609 |
+| Instagram | @crespossaladebelleza |
+| Enlace de Instagram | https://www.instagram.com/crespossaladebelleza/ |
+| Ubicación provisional | Jardín 2, Pereira |
+
+Los datos provienen del usuario; los enlaces deben probarse en móvil y escritorio antes de publicar. La ubicación es provisional y pendiente de validación; no se muestra dirección exacta ni horarios. No se deduce horario, servicios, precios ni catálogo de esta información.
 
 ## Tienda
 
@@ -63,4 +79,4 @@ El desarrollador recibe contenido aprobado, modifica archivos estáticos y JSON 
 
 ## Aceptación del futuro MVP
 
-Verificar los seis servicios y precios aprobados; confirmar el equipo; comprobar portafolio y carrusel; probar enlaces oficiales; revisar adaptación y accesibilidad. No publicar contenido pendiente como si estuviera confirmado.
+Verificar los seis servicios y precios aprobados; confirmar datos y fotografías del equipo aportados; comprobar portafolio y carrusel; probar enlaces oficiales; revisar adaptación y accesibilidad. No publicar contenido pendiente como si estuviera confirmado.

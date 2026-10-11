@@ -2,7 +2,7 @@
 
 **Proyecto:** Crespos Sala de Belleza  
 **Fecha:** 2026-10-11  
-**Estado:** base inicial; información comercial pendiente de validación.
+**Estado:** prototipo local creado (2026-10-11); información comercial pendiente de validación; no listo para publicar.
 
 ## Visión
 
@@ -13,8 +13,8 @@ Ofrecer un portafolio digital del salón para presentar su trabajo, promocionar 
 - Presentación del salón y portafolio de trabajos con imágenes autorizadas.
 - Carrusel principal con promociones y servicios.
 - Catálogo de seis servicios con precios publicados fijos, sujetos a validación previa.
-- Presentación de cuatro profesionales provisionales.
-- Enlaces de contacto a WhatsApp e Instagram.
+- Presentación de cinco profesionales (Carolina Chico, dueña, y cuatro especialistas; nombres y especialidades del material aportado por el usuario el 2026-10-11; fotografías pendientes).
+- Enlaces de contacto a WhatsApp e Instagram (datos suministrados por el usuario el 2026-10-11; pendientes de prueba).
 - Mantenimiento de contenido por el desarrollador: 2–3 actualizaciones mensuales.
 
 ## Fuera del alcance del MVP
@@ -23,11 +23,11 @@ Framework, backend, base de datos, panel de administración, cuentas de clientes
 
 ## Alcance de esta inicialización
 
-Crear un repositorio privado con rama `main`, README y documentación. No implementar ni desplegar el website. No agregar una licencia pública.
+Crear un repositorio privado con rama `main`, README y documentación, sin licencia pública. Posteriormente, el 2026-10-11, se implementó un prototipo local multipágina (`index.html`, `servicios.html`, `portafolio.html`, `equipo.html`, `contacto.html`, `css/`, `js/`) sin desplegar, según la decisión del usuario de usar páginas separadas: no está listo para publicar y su contenido es provisional. El mismo día se integraron el logo sin fondo (`docs/img/logotres.png`, para la cabecera) y el logo con fondo crema y verde (`docs/img/logouno.png`, para la portada), junto con la firma de marca «Crespos by Carolina Chico» como texto complementario en la portada.
 
 ## Pendientes
 
-Confirmar nombres y descripciones de los seis servicios, precios y moneda; composición y datos del equipo; fotografías y autorización de uso; teléfono y enlaces oficiales; información de presentación del salón; promociones y condiciones; identidad visual definitiva; dominio y alojamiento. Ubicación, horarios y demás datos comerciales solo se documentarán cuando sean suministrados y validados.
+Confirmar nombres y descripciones de los seis servicios, precios y moneda; aportar fotografías autorizadas del portafolio con la dirección de su publicación de Instagram; fotografías del equipo y autorización de uso; confirmar los datos del equipo aportados antes de publicar; probar los enlaces de contacto suministrados; validar la ubicación provisional (Jardín 2, Pereira); información de presentación del salón; promociones y condiciones; identidad visual definitiva; dominio y alojamiento. Horarios y demás datos comerciales solo se documentarán cuando sean suministrados y validados.
 
 ## Criterios de éxito propuestos para el futuro MVP
 
