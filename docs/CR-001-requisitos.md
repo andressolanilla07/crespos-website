@@ -9,11 +9,19 @@
 | ID | Requisito | Estado |
 | --- | --- | --- |
 | RF-01 | Presentar el salón mediante un portafolio de sus trabajos. | Acordado; galería con archivos locales y enlaces directos a las publicaciones de Instagram; faltan fotografías autorizadas y la dirección de cada publicación. |
-| RF-02 | Mostrar un carrusel principal de promociones y servicios. | Acordado; contenido y condiciones pendientes. |
+| RF-02 | Mostrar un carrusel principal de promociones y servicios. | Acordado; en el prototipo (2026-10-11) se retituló «Nuestro trabajo» con tres espacios reservados; contenido y condiciones pendientes. |
 | RF-03 | Mostrar seis servicios con precios publicados fijos. | Acordado; catálogo, importes y moneda pendientes de validación. |
 | RF-04 | Presentar cinco profesionales (dueña y especialistas). | Nombres y especialidades del material aportado por el usuario el 2026-10-11; fotografías y confirmación pendientes. |
 | RF-05 | Permitir contacto mediante enlaces oficiales de WhatsApp e Instagram. | Acordado; destinos suministrados por el usuario el 2026-10-11; enlaces pendientes de prueba. |
 | RF-06 | Permitir 2–3 actualizaciones mensuales realizadas por el desarrollador. | Acordado; sin panel de administración. |
+
+## Misión y visión (prototipo, 2026-10-11)
+
+Textos aportados y aprobados por el usuario para el prototipo local. La adopción institucional queda pendiente de revisión por parte de Carolina; hasta entonces se muestran como contenido del prototipo, no como comunicación oficial del salón.
+
+> **Misión:** Consentir a cada persona con alegría, calidez y dedicación, haciendo de cada visita a Crespos un momento de cuidado y bienestar. Realzar su belleza con un servicio cercano, para que se vaya con una sonrisa y el gusto de sentirse bien consigo misma.
+
+> **Visión:** Ser en Pereira un salón querido por la alegría de su equipo y la calidez de su atención; un lugar al que las personas deseen volver porque se sienten escuchadas, consentidas y acompañadas a expresar su propia belleza.
 
 ## Catálogo pendiente
 

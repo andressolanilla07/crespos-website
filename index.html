@@ -18,7 +18,7 @@
   <header class="cabecera">
     <p class="marca">
       <a href="index.html">
-        <img class="marca__logo" src="docs/img/logotres.png" alt="Crespos Sala de Belleza" width="2172" height="724">
+        <img class="marca__logo" src="docs/img/logotres-web.webp" alt="Crespos Sala de Belleza" width="480" height="160">
       </a>
     </p>
     <nav class="nav-principal" aria-label="Principal">
@@ -33,54 +33,53 @@
   </header>
 
   <main id="contenido">
-    <section class="seccion">
-      <div class="contenedor">
-        <div class="hero hero--marca">
-          <h1 class="vis-oculto">Crespos Sala de Belleza</h1>
-          <img class="hero__imagen" src="docs/img/logouno.png" alt="" width="1774" height="887">
-          <p class="hero__texto">Conoce nuestro trabajo y nuestro equipo</p>
-          <p class="hero__acciones">
-            <a class="btn btn--primario" href="https://wa.me/573042382609" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp<span class="vis-oculto"> (se abre en una pestaña nueva)</span></a>
-            <a class="btn btn--secundario" href="https://www.instagram.com/crespossaladebelleza/" target="_blank" rel="noopener noreferrer">Ver nuestro Instagram<span class="vis-oculto"> (se abre en una pestaña nueva)</span></a>
-          </p>
-        </div>
+    <section class="seccion inicio-fondo" aria-label="Presentación del salón">
+      <div class="inicio-fondo__contenido"><h1 class="bienvenida-marca">Un momento para ti, una sonrisa para llevar.</h1>
+        
 
-        <div class="carrusel" role="region" aria-roledescription="carrusel" aria-label="Promociones y servicios, contenido pendiente" data-carrusel>
-          <h2 class="carrusel__titulo">Promociones y servicios</h2>
+        <div class="carrusel" role="region" aria-roledescription="carrusel" aria-label="Nuestro trabajo, contenido pendiente" data-carrusel>
+          <h2 class="carrusel__titulo" id="trabajo-titulo">Nuestro trabajo</h2>
           <ol class="carrusel__pista">
             <li class="carrusel__diapositiva es-activa" role="group" aria-roledescription="diapositiva" aria-label="1 de 3">
               <div class="diapositiva">
-                <p class="diapositiva__numero">Diapositiva 1 de 3</p>
-                <div class="reservado reservado--carrusel">Espacio reservado para la imagen de la promoción</div>
-                <h3>Promoción pendiente de aprobación</h3>
+                <p class="diapositiva__numero">1 de 3</p>
+                <a class="foto-instagram" href="https://www.instagram.com/crespossaladebelleza/p/Dc_sTQ8FlrM/" target="_blank" rel="noopener noreferrer"><img src="img/portafolio/instagram-01.jpg" alt="Fotografía 1 del portafolio de Crespos Sala de Belleza" width="480" height="640" loading="lazy" decoding="async"><span class="vis-oculto">Ver publicación en Instagram (se abre en una pestaña nueva)</span></a>
+                <h3>Trabajo del salón</h3>
+                <p class="diapositiva__nota">Pulsa la fotografía para ver su publicación en Instagram</p>
               </div>
             </li>
             <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="2 de 3">
               <div class="diapositiva">
-                <p class="diapositiva__numero">Diapositiva 2 de 3</p>
-                <div class="reservado reservado--carrusel">Espacio reservado para la imagen del servicio destacado</div>
-                <h3>Servicio destacado pendiente de aprobación</h3>
+                <p class="diapositiva__numero">2 de 3</p>
+                <a class="foto-instagram" href="https://www.instagram.com/crespossaladebelleza/p/Dcj8_gkDUE2/" target="_blank" rel="noopener noreferrer"><img src="img/portafolio/instagram-02.jpg" alt="Fotografía 2 del portafolio de Crespos Sala de Belleza" width="480" height="640" loading="lazy" decoding="async"><span class="vis-oculto">Ver publicación en Instagram (se abre en una pestaña nueva)</span></a>
+                <h3>Trabajo del salón</h3>
+                <p class="diapositiva__nota">Pulsa la fotografía para ver su publicación en Instagram</p>
               </div>
             </li>
             <li class="carrusel__diapositiva" role="group" aria-roledescription="diapositiva" aria-label="3 de 3">
               <div class="diapositiva">
-                <p class="diapositiva__numero">Diapositiva 3 de 3</p>
-                <div class="reservado reservado--carrusel">Espacio reservado para imagen del carrusel</div>
-                <h3>Contenido pendiente de definición</h3>
+                <p class="diapositiva__numero">3 de 3</p>
+                <a class="foto-instagram" href="https://www.instagram.com/crespossaladebelleza/p/DbEutt7DeOQ/" target="_blank" rel="noopener noreferrer"><img src="img/portafolio/instagram-03.jpg" alt="Fotografía 3 del portafolio de Crespos Sala de Belleza" width="480" height="640" loading="lazy" decoding="async"><span class="vis-oculto">Ver publicación en Instagram (se abre en una pestaña nueva)</span></a>
+                <h3>Trabajo del salón</h3>
+                <p class="diapositiva__nota">Pulsa la fotografía para ver su publicación en Instagram</p>
               </div>
             </li>
           </ol>
           <div class="carrusel__controles" role="group" aria-label="Controles del carrusel">
-            <button type="button" class="carrusel__boton" data-carrusel-anterior>Anterior</button>
+            <button type="button" class="carrusel__boton carrusel__boton--flecha" data-carrusel-anterior aria-label="Anterior"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
             <div class="carrusel__puntos" role="group" aria-label="Elegir diapositiva">
               <button type="button" class="carrusel__punto es-activo" data-carrusel-punto="0" aria-label="Ir a la diapositiva 1" aria-current="true"></button>
               <button type="button" class="carrusel__punto" data-carrusel-punto="1" aria-label="Ir a la diapositiva 2"></button>
               <button type="button" class="carrusel__punto" data-carrusel-punto="2" aria-label="Ir a la diapositiva 3"></button>
             </div>
-            <button type="button" class="carrusel__boton" data-carrusel-siguiente>Siguiente</button>
+            <button type="button" class="carrusel__boton carrusel__boton--flecha" data-carrusel-siguiente aria-label="Siguiente"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button>
             <button type="button" class="carrusel__boton carrusel__pausa" data-carrusel-pausa>Pausar</button>
           </div>
         </div>
+        <p class="enlaces-carrusel">
+          <a href="https://wa.me/573042382609" target="_blank" rel="noopener noreferrer" class="contacto-elegante contacto-elegante--whatsapp"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-12 7L3 20l1.5-5A8 8 0 1 1 20 11.5Z"/><path d="M8 8c0 4 4 8 8 8l1-2-3-1-1 1-3-3 1-1-1-3Z"/></svg><span>Hablemos por WhatsApp</span><span class="vis-oculto"> (se abre en una pestaña nueva)</span></a>
+          <a href="https://www.instagram.com/crespossaladebelleza/" target="_blank" rel="noopener noreferrer" class="contacto-elegante contacto-elegante--instagram"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg><span>Descubre nuestro Instagram</span><span class="vis-oculto"> (se abre en una pestaña nueva)</span></a>
+        </p>
       </div>
     </section>
   </main>
@@ -95,7 +94,8 @@
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
-    <p class="pie__firma">Crespos by Carolina Chico</p>
+    <p class="pie__nombre">Crespos Sala de Belleza</p>
+    <p class="pie__firma">by Carolina Chico</p>
     <ul class="pie__contactos">
       <li><a href="https://wa.me/573042382609" target="_blank" rel="noopener noreferrer">WhatsApp: +57 304 2382609<span class="vis-oculto"> (se abre en una pestaña nueva)</span></a></li>
       <li><a href="https://www.instagram.com/crespossaladebelleza/" target="_blank" rel="noopener noreferrer">Instagram: @crespossaladebelleza<span class="vis-oculto"> (se abre en una pestaña nueva)</span></a></li>
