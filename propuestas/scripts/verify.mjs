@@ -16,6 +16,9 @@ try {
    const errors=[];page.on('pageerror', e=>errors.push(e.message));
    await page.goto(`http://127.0.0.1:4174/propuestas/${version}/`);
    await page.waitForLoadState('networkidle');
+   await page.locator('img').evaluateAll(async imgs=>{
+    await Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();}));
+   });
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`${version} ${width}: desbordamiento`);
    assert.equal(await page.locator('.service').count(),6);
    assert.equal(await page.locator('[data-slide]:visible').count(),1);
@@ -39,6 +42,9 @@ try {
    await page.keyboard.press('Tab');
    assert.equal(await page.locator('.skip').evaluate(el=>el===document.activeElement),true);
    await page.locator('.skip').evaluate(el=>el.blur());
+   await page.locator('img').evaluateAll(async imgs=>{
+    await Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();}));
+   });
    assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.every(i=>i.complete&&i.naturalWidth>0)),true);
    if(width===375||width===1280)await page.screenshot({path:fileURLToPath(new URL(`../${version}/preview-${width}.png`,import.meta.url)),fullPage:true});
    assert.deepEqual(errors,[]);results.push(`${version} ${width}px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK`);

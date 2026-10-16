@@ -12,9 +12,9 @@ Preparado el 16 de octubre de 2026. **Solo local; no se ha publicado ni subido a
 
 ## Revisión
 
-Abrir `propuestas/index.html` para comparar. V2 es la propuesta principal: marfil, champaña, dorado, salvia, carbón y una ilustración botánica propia en SVG. V1 es una alternativa nueva de elegancia clásica, con marcos geométricos y más contraste. Ambas comparten estructura y datos para comparar la dirección visual. No se ha renombrado la web previa como V1 ni sobrescrito su trabajo.
+Abrir `propuestas/index.html` para comparar. V2 es la propuesta principal: marfil, champaña, dorado, salvia, carbón e imágenes editoriales botánicas generadas con IA. V1 es una alternativa nueva de elegancia clásica, con tonos champaña y más contraste. Ambas comparten estructura, imágenes y datos para comparar la dirección visual. No se ha renombrado la web previa como V1 ni sobrescrito su trabajo.
 
-Se reutiliza el logo aportado en `docs/img/logotres-web.webp`: cabecera, esquina inferior de portada y pie. No se cargan fuentes, fotografías ni servicios externos. Las seis imágenes de galería y las cinco del equipo son espacios reservados explícitos. No se reutilizan las fotos de Instagram existentes porque no se verificó autorización para estas propuestas.
+Se reutiliza el logo aportado en `docs/img/logotres-web.webp`: cabecera, esquina inferior de portada y pie. No se cargan fuentes, fotografías ni servicios externos. Por solicitud del usuario, se añadieron cuatro imágenes provisionales con la herramienta integrada de generación de imágenes: rizos, ondas, manicure e interior conceptual. Se sirven desde `assets/images/`; portada y galería las identifican como IA. La galería reutiliza dos imágenes con encuadres diferentes. El interior es ficticio, no representa el salón real; la sección del equipo conserva perfiles sin asignarles rostros ficticios. Los prompts completos y las fuentes están en `assets/images/GENERACION.md`. No se reutilizan las fotos de Instagram existentes porque no se verificó autorización para estas propuestas.
 
 Los seis nombres, descripciones y valores de servicios son **ejemplos de diseño no aprobados**, en COP provisional. Los roles del equipo son propuestas; no se atribuyen a personas. No hay testimonios, promociones comerciales con descuentos, productos, pagos, formularios ni reservas reales. La tienda es un estado vacío.
 
