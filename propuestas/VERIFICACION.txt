@@ -1,0 +1,11 @@
+v2 320px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v2 375px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v2 768px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v2 1280px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v2: contenido, navegación y tres promociones disponibles sin JavaScript
+v1 320px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v1 375px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v1 768px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v1 1280px: sin desborde, carrusel, contactos bloqueados, imágenes y teclado OK
+v1: contenido, navegación y tres promociones disponibles sin JavaScript
+Configuración validada simulada en navegador: enlaces WhatsApp/Instagram correctos, sin abrir canales externos

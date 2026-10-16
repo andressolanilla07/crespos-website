@@ -1,0 +1,23 @@
+{
+  "brand": "Crespos Sala de Belleza",
+  "contacts": {
+    "validated": false,
+    "whatsapp": "573042382609",
+    "instagram": "crespossaladebelleza",
+    "message": "Hola Crespos, quisiera información sobre sus servicios."
+  },
+  "services": [
+    { "name": "Corte & estilo", "description": "Una propuesta de forma y movimiento para tu cabello.", "price": 45000 },
+    { "name": "Coloración", "description": "Explora una nueva expresión de tu estilo.", "price": 120000 },
+    { "name": "Cuidado capilar", "description": "Un espacio dedicado al cuidado de tu cabello.", "price": 65000 },
+    { "name": "Peinado", "description": "Detalles para acompañar un momento especial.", "price": 60000 },
+    { "name": "Manicure", "description": "Color y cuidado en los pequeños detalles.", "price": 30000 },
+    { "name": "Pedicure", "description": "Una pausa para consentirte.", "price": 40000 }
+  ],
+  "team": ["Dirección creativa", "Estilismo", "Color", "Cuidado capilar", "Manos & pies"],
+  "promotions": [
+    { "eyebrow": "01 / Un espacio para ti", "title": "Tu esencia, en cada detalle.", "text": "Descubre la propuesta visual de Crespos: una pausa, un nuevo estilo, un momento propio." },
+    { "eyebrow": "02 / El arte de cuidarte", "title": "Dale espacio a tu estilo.", "text": "Aquí se presentará una promoción aprobada por el salón, con sus condiciones y vigencia." },
+    { "eyebrow": "03 / Detalles que inspiran", "title": "Belleza a tu manera.", "text": "Un espacio reservado para la próxima campaña de Crespos. Contenido por confirmar." }
+  ]
+}
