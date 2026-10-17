@@ -21,6 +21,11 @@ try {
    });
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`${version} ${width}: desbordamiento`);
    assert.equal(await page.locator('.service').count(),6);
+   assert.equal(await page.locator('.floating-whatsapp').evaluate(button=>{
+    const rect=button.getBoundingClientRect();
+    const logo=document.querySelector('.fixed-brand').getBoundingClientRect();
+    return rect.width===rect.height && rect.width>=44 && rect.bottom<logo.top && rect.right<=innerWidth;
+   }),true,'WhatsApp circular, tamaño táctil y separado del logo');
    assert.equal(await page.locator('[data-slide]:visible').count(),1);
    await page.locator('[data-next]').click();
    assert.equal(await page.locator('[data-counter]').innerText(),'02 / 03');

@@ -1,11 +1,11 @@
 # Crespos · propuestas para revisión de la propietaria
 
-Preparado el 16 de octubre de 2026. **Solo local; no se ha publicado ni subido a GitHub.**
+Preparado el 16 de octubre de 2026. El usuario autorizó subir y publicar el prototipo en una rama separada. Rama: `v2-elegancia-botanica`. La web y los documentos anteriores permanecen intactos. Los registros de preparación local siguientes describen la etapa inicial.
 
 ## Estado comprobado antes de editar
 
 - Repositorio encontrado: `andressolanilla07/crespos-website`.
-- GitHub lo reportó **público**, no privado. El README existente indica GitHub Pages desde `main` y la raíz. No subir este prototipo allí mientras esa publicación y la privacidad sigan sin resolverse.
+- GitHub lo reportó **público**, no privado. El README existente indica GitHub Pages desde `main` y la raíz. El usuario confirmó después que es público y autorizó expresamente la publicación del prototipo.
 - Copia limpia desde `main`, commit base `4f446dd` (`feat: actualizar marca, equipo y galería enlazada a Instagram`). Rama local `propuesta/elegancia-botanica-local`.
 - Se añadieron únicamente archivos dentro de `propuestas/`. La web anterior, fotografías y documentos permanecen intactos.
 - La conversación de referencia pudo leerse, pero los mensajes del asistente contienen referencias de contenido sin el mockup ni sus archivos. Estas propuestas interpretan la descripción del usuario y la identidad documentada; no se afirma fidelidad visual al mockup inaccesible.
@@ -62,3 +62,9 @@ No se agregó workflow de despliegue ni se modificó GitHub Pages. `noindex,nofo
 4. Para una revisión privada, servir la raíz de esta copia detrás de autenticación y abrir `/propuestas/`; se requieren los logos de `docs/img/`. No publicar toda la copia en un alojamiento público porque contiene la web anterior y sus fotografías. Para un paquete independiente, copiar únicamente `propuestas/` y `docs/img/logotres-web.webp`, conservando las rutas.
 5. Solo después de validar datos y aprobar la publicación, preparar rama y PR con estos archivos. Verificar las reglas de Pages antes de subir: aunque no se fusione a `main`, el repositorio público hace público el código de una rama.
 6. La integración de la versión elegida como portada y un eventual despliegue público son pasos pendientes; no se ejecutaron en esta entrega.
+
+## Publicación V2 autorizada (16 de octubre de 2026)
+
+La rama `v2-elegancia-botanica` contiene la propuesta y conserva la portada anterior en la raíz. No se fusiona ni se modifica `main`. GitHub Pages admite una sola fuente por repositorio: se prepara el cambio de fuente desde `main` a esta rama, con la raíz `/`, para servir simultáneamente la web anterior y `/propuestas/v2/` (V2), `/propuestas/v1/` (V1) y `/propuestas/` (comparación). El retorno a la publicación anterior consiste en elegir `main` y `/` como fuente de Pages.
+
+URL prevista de V2: https://andressolanilla07.github.io/crespos-website/propuestas/v2/ . Confirmar estado del build y respuesta HTTP antes de comunicar que está publicada. Los enlaces de contacto permanecen pendientes; la publicación no equivale a validar datos comerciales. Se mantienen los avisos de IA y precios de ejemplo, sin fotos reales nuevas. El botón flotante circular verde permite consultar el estado pendiente; queda separado del logo fijo y respeta reducción de movimiento.
