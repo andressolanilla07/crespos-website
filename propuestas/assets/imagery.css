@@ -2,3 +2,15 @@
 
 /* Marca original visible en la esquina inferior derecha durante el recorrido. */
 .fixed-brand{position:fixed;right:22px;bottom:18px;z-index:6;background:#faf5edf2;border:1px solid #d8d2c4;border-radius:5px;padding:5px 10px;box-shadow:0 2px 12px #25242012}.fixed-brand .logo{width:108px;height:auto}.floating-whatsapp{bottom:88px}.photo-hero .corner-logo{display:none}@media(max-width:700px){.fixed-brand{right:15px;bottom:12px;padding:4px 8px}.fixed-brand .logo{width:92px}.floating-whatsapp{bottom:74px}}
+
+/* WhatsApp flotante circular, separado del logo de marca. */
+.floating-whatsapp{width:60px;height:60px;padding:0;justify-content:center;background:#128c4a;color:#fff;border:1px solid #ffffffb3;border-radius:50%;box-shadow:0 5px 20px #12683f38;cursor:pointer;transition:transform .2s,box-shadow .2s,background .2s}
+.floating-whatsapp svg{width:33px;height:33px;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.floating-whatsapp:hover,.floating-whatsapp:focus-visible{background:#08773b;transform:translateY(-3px);box-shadow:0 8px 25px #12683f55;filter:none}
+.floating-whatsapp:focus-visible{outline:3px solid #252420;outline-offset:4px}
+.floating-whatsapp:active{transform:scale(.95)}
+.floating-whatsapp>span{position:absolute;right:calc(100% + 12px);top:50%;transform:translateY(-50%);width:max-content;max-width:190px;padding:9px 13px;background:#252420;color:#faf5ed;border-radius:7px;box-shadow:0 3px 12px #25242022;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s;font-size:.75rem}
+.floating-whatsapp>span small{color:#faf5ed;font-size:.65rem}
+.floating-whatsapp:hover>span,.floating-whatsapp:focus-visible>span{opacity:1;visibility:visible}
+@media(max-width:700px){.floating-whatsapp{width:56px;height:56px;right:18px;bottom:78px}.floating-whatsapp svg{width:31px;height:31px}}
+@media(prefers-reduced-motion:reduce){.floating-whatsapp,.floating-whatsapp>span{transition:none}.floating-whatsapp:hover,.floating-whatsapp:focus-visible,.floating-whatsapp:active{transform:none}}
